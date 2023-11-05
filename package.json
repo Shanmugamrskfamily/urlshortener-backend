@@ -4,7 +4,7 @@
   "description": "This program will support backend of URL Shorner Application",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon server.js"
+    "start":"node server.js"
   },
   "keywords": [],
   "author":"SHANMUGAM R",
@@ -22,5 +22,8 @@
     "nodemailer": "^6.9.6",
     "nodemon": "^3.0.1",
     "passport": "^0.6.0"
+  },
+  "engines": {
+ "node": ">=14 <18.17.1"
   }
 }
