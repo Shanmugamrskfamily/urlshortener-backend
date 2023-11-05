@@ -16,7 +16,7 @@ connection();
 // middlewares
 app.use(bodyParser.json());
 app.use(cors(
-    {origin:'https://localhost:4505'}
+    {origin:'http://localhost:5173'}
 ));
 
 // routes
