@@ -2,8 +2,8 @@ console.log("URL Shortener");
 import express from "express"
 import dotenv from "dotenv";
 import cors from "cors";
-import { userRouter } from "./Routes/users.js";
-import { urlRouter } from "./Routes/urls.js";
+import { userRouter } from "./routes/users.js";
+import { urlRouter } from "./routes/urls.js";
 import { isAuthenticated } from "./Authentication/userAuth.js";
 import { getURL } from './Controllers/urls.js';
 

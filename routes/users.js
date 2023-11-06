@@ -11,7 +11,7 @@ import {
   activateAccount,
   generateUserToken,
   activationMail,
-} from "../Controllers/users.js";
+} from "../Controllers/users";
 import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
 
