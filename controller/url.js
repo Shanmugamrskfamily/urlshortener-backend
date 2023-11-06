@@ -1,6 +1,5 @@
-import {client} from "../db";
-import { ObjectId } from "bson"; 
-import jwt from "jsonwebtoken";
+import {client} from "../db.js";
+
 
 export function addURL(data){
     return client

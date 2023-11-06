@@ -1,4 +1,4 @@
-import {client} from "../db";
+import {client} from "../db.js";
 import { ObjectId } from "bson"; 
 import jwt from "jsonwebtoken";
 
