@@ -1,5 +1,5 @@
 import express from "express";
-import { addURL, getURL, getAllURL, urlDayCount, urlMonthCount, updateCount } from "../Controllers/urls";
+import { addURL, getURL, getAllURL, urlDayCount, urlMonthCount, updateCount } from '../controller/urls';
 
 
 const router = express.Router();  
