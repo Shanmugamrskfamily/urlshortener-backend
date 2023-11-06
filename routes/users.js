@@ -1,17 +1,6 @@
 import express from "express";
 import bcrypt from "bcrypt";
-import {
-  addUser,
-  forgotPassword,
-  generateToken,
-  getUser,
-  getUserByID,
-  resetPassword,
-  generateActivationToken,
-  activateAccount,
-  generateUserToken,
-  activationMail,
-} from "../Controllers/users";
+import { addUser, forgotPassword, generateToken, getUser, getUserByID, resetPassword, generateActivationToken, activateAccount, generateUserToken, activationMail}from "../Controllers/users";
 import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
 
