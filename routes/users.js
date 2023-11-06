@@ -75,7 +75,7 @@ router.post("/signup", async (req, res) => {
       const secret = activationKey;
       const token = generateActivationToken(hashedUser._id, secret);
 
-      const link = `${FR_URL}activate//${hashedUser._id}?activateToken=${token}`;
+      const link = `${FR_URL}activate/${hashedUser._id}?activateToken=${token}`;
       const mailOptions = {
         from: E_MAIL,
         to: hashedUser.email,
