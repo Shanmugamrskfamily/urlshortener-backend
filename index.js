@@ -5,7 +5,7 @@ import cors from "cors";
 import { userRouter } from "./routes/users.js";
 import { urlRouter } from "./routes/urls.js";
 import { isAuthenticated } from "./Authentication/userAuth.js";
-import { getURL } from './controllers/urls.js';
+import { getURL } from './Controllers/urls.js';
 
 dotenv.config();
 const PORT = process.env.PORT;
